@@ -18,13 +18,18 @@ import static org.example.base.DriverUtils.driver;
 public class TestBase {
 
     private static AppiumDriverLocalService appiumService;
+    private final String platform;
+
+    public TestBase(String platform){
+        this.platform = platform;
+    }
 
     @BeforeMethod(alwaysRun = true)
     protected void startDriver() {
         // Set desired capabilities for the mobile device
         DesiredCapabilities caps = new DesiredCapabilities();
 
-        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, platform);
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, getDeviceUDID());
         caps.setCapability("automationName", "uiautomator2");
         caps.setCapability(MobileCapabilityType.APP, "/Users/armen-akyan/sample-mobile-automation-framework/src/main/resources/app/picsart.apk");
