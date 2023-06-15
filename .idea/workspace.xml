@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f52e469b-734d-41c4-8e5b-50783ff23888" name="Changes" comment="Sample project running on Android">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/base/AndroidTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/base/IosTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ios/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/android/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/android/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/actions/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/constants/Side.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/exceptions/ElementNotPresentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/screens/BaseScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/screens/CHANGEScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/utils/WaitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/CHANGE/android/CHANGETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app/picsart.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/android/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/AndroidTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CHANGE/base/AndroidTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/CHANGE/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/IosTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CHANGE/base/IosTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CHANGE/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ios/ILoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CHANGE/ios/ICHANGETest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "/Users/armen-akyan/sample-mobile-automation-framework/src/test/java",
-    "last_opened_file_path": "/Users/armen-akyan/sample-mobile-automation-framework/src/main/resources",
+    "last_opened_file_path": "/Users/armen-akyan/sample-mobile-automation-framework",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
